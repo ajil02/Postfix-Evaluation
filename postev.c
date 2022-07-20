@@ -73,7 +73,7 @@ void main()
         	{
         	    x=pop();
         	    y=pop();
-        	    z=cal(*p,x,y);
+        	    z=cal(*p,y,x);
         	    push(z);
         	}
         	p++;
